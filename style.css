@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: Helvetica;
+}
+
+nav{
+    width: 100%;
+    height: 17%;
+
+    background-color: rgb(214, 214, 249);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+nav i{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+
+    font-size: 40px;
+}
+
+nav i:hover{
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    height: 83%;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    font-size: 15px;
+
+    background: linear-gradient(to right, #d6e0ff, #ebeaea);
+
+}
+
+.container h2{
+    font-size: 35px;
+    font-weight: 500;
+
+    margin-top: 30px;
+}
+
+.container a{
+    margin: 10px;
+    color: blue;
+}
+
+.container a:hover{
+    /* cursor: pointer; */
+    color: rgb(33, 33, 174);
+    transition: 0.5s;
+}
+
+.container input{
+    font-size: 20px;
+    color: blue;
+
+    width: 500px;
+
+    text-align: center;
+    padding: 5px;
+    margin: 20px 0px;
+}
+
+.image-section{
+    display: flex;
+    justify-content: center;
+
+    width: 80%;
+    height: 200px;
+
+    border-radius: 80px;
+    
+    background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+    margin-top: 10px;
+}
+
+.image-section img{
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 50%;
+
+    margin: 20px 50px;
+}
+
+.image-section img:hover{
+    border: 5px solid blue;
+    cursor: pointer;
+    
+    transition: 0.25s;
+}
+
+.button-section button{
+    font-size: 20px;
+    font-weight: 700;
+
+    width: 200px;
+
+    padding: 10px;
+    margin: 30px 10px;
+
+    border: none;
+    border-radius: 20px;
+
+    background: linear-gradient(to right, #283c86, #45a247);
+    color: white;
+}
+
+.button-section button:nth-of-type(2){
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    color: black;
+}
+
+.button-section button:hover{
+    cursor: pointer;
+    background: linear-gradient(to left, #283c86, #45a247);
+
+    transition: 5s;
+}
+
+.button-section button:nth-of-type(2):hover{
+    background: linear-gradient(to left, #8e9eab, #eef2f3);
+    color: black;
+
+    transition: 5s;
+
+}
